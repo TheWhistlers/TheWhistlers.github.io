@@ -2,7 +2,7 @@
     font-family: 'Jetbrains Mono';
 }
 .introduction #title{
-    line-height: 200px;
+    /*line-height: 200px;*/
     text-align: center;
     height: 200px;
     font-size: 36px;
