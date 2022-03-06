@@ -1,9 +1,50 @@
-.introduction {
+body{
     font-family: 'Jetbrains Mono';
+    background-color: grey;
 }
+
+.introduction {
+    background: url("https://imgix.bustle.com/uploads/shutterstock/2019/10/31/ae29b2c8-49e3-4784-8fa1-405d82a07faa-shutterstock-624246443.jpg?w=1200&h=630&fit=crop&crop=faces&fm=jpg");
+    background-size: 100% 100%;
+    background-position: center center;
+    overflow: auto;
+}
+
 .introduction #title{
-    /*line-height: 200px;*/
     text-align: center;
-    height: 200px;
     font-size: 60px;
+    color: rgb(205, 248, 255);
+} 
+
+.introduction p{
+    color:whitesmoke;
+}
+
+.introduction p a{
+    color:rgb(179, 255, 0);
+}
+
+#version_table{
+    size: auto;
+    color:whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#version_table thead{
+    background-color: #333;
+    color: #fff;
+}
+
+#version_table td {
+    border: 1px solid #333;
+}
+
+#version_table tfoot {
+    background-color: #333;
+    color: #fff;
+}
+
+#version_table #vt_names {
+    color: aquamarine;
 }
