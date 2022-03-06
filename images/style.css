@@ -4,7 +4,7 @@ body{
 }
 
 .introduction {
-    background: url("https://imgix.bustle.com/uploads/shutterstock/2019/10/31/ae29b2c8-49e3-4784-8fa1-405d82a07faa-shutterstock-624246443.jpg?w=1200&h=630&fit=crop&crop=faces&fm=jpg");
+    background: url("./blackhole.background.png");
     background-size: 100% 100%;
     background-position: center center;
     overflow: auto;
