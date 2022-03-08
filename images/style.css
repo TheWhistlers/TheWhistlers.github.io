@@ -12,12 +12,18 @@ body{
 
 .introduction #title{
     text-align: center;
-    font-size: 60px;
-    color: rgb(205, 248, 255);
+    font-size: 55px;
+    color: rgb(124, 238, 255);
+    text-shadow: 0 0 8px #313131, 0 0 8px #d36fe7; 
 } 
 
 .introduction p{
     color:whitesmoke;
+    text-shadow: 0 0 5px #0062f5, 0 0 5px #0039a3; 
+}
+
+.introduction .central_content{
+    text-align: center;
 }
 
 .introduction p a{
