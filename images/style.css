@@ -1,6 +1,8 @@
 body{
     font-family: 'Jetbrains Mono';
     background-color: grey;
+    color:whitesmoke;
+    text-shadow: 0 0 5px #0062f5, 0 0 5px #0039a3; 
 }
 
 .introduction {
@@ -13,14 +15,9 @@ body{
 .introduction #title{
     text-align: center;
     font-size: 55px;
-    color: rgb(124, 238, 255);
     text-shadow: 0 0 8px #313131, 0 0 8px #d36fe7; 
+    animation: background-transform-color 10s infinite;
 } 
-
-.introduction p{
-    color:whitesmoke;
-    text-shadow: 0 0 5px #0062f5, 0 0 5px #0039a3; 
-}
 
 .introduction .central_content{
     text-align: center;
@@ -30,11 +27,26 @@ body{
     color:rgb(179, 255, 0);
 }
 
+.introduction #support:hover{
+    color: #81ff87bb;
+}
+
+.introduction #box a{
+    color:rgb(179, 255, 0);
+    text-decoration: none;
+    display: block;
+    font: bolder 45px / 80px 'JetBrains Mono'; 
+    text-align: center;
+    border-radius: 60px;
+    background-color: rgba(192, 192, 192, 0.377);
+    border-style: double;
+    border-width: 15px;
+}
+
 #version_table{
     size: auto;
     color:whitesmoke;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
 }
 
 #version_table thead{
@@ -46,11 +58,25 @@ body{
     border: 1px solid #333;
 }
 
-#version_table tfoot {
-    background-color: #333;
-    color: #fff;
-}
-
 #version_table #vt_names {
     color: aquamarine;
+}
+
+@keyframes background-transform-color {
+    25%{
+        color: rgb(124, 238, 255);
+        text-shadow: 0 0 8px #313131, 0 0 8px #67a4ff;   
+      }
+    50%{
+        color: rgb(243, 148, 255);
+        text-shadow: 0 0 8px #313131, 0 0 8px #d36fe7;    
+     }
+    75%{
+        color: rgb(124, 238, 255);
+        text-shadow: 0 0 8px #313131, 0 0 8px #67a4ff;   
+    }
+    100%{
+        color: rgb(243, 148, 255);
+        text-shadow: 0 0 8px #313131, 0 0 8px #d36fe7;    
+    }
 }
