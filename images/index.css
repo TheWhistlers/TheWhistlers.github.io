@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Jetbrains Mono';
+    background-color: rgb(201, 201, 201);
+    color:whitesmoke;
+    text-shadow: 0 0 5px #0062f5, 0 0 5px #0039a3; 
+}
+
+.box article header h2 a {
+    color: rgb(0, 228, 171);
+}
+
+.introduction {
+    background: url("./blackhole.background.png");
+    background-size: 100% 100%;
+    background-position: center center;
+    overflow: auto;
+}
+
+.introduction .central_content{
+    text-indent: 8em;
+    color: #f8d4ff;
+}
+
+.introduction p a{
+    color:rgb(179, 255, 0);
+}
+
+.introduction #support:hover{
+    color: #81ff87bb;
+}
+
+.introduction .box{
+    color:rgb(255, 255, 255);
+    background-color: rgba(192, 192, 192, 0.377);
+    margin: auto;
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+
+    border-radius: 50px;
+    border-style: double;
+    width: 250px;
+    height: 350px;
+}
+
+#version_table{
+    width: 1500px;
+    height: 200px;
+    color:whitesmoke;
+    margin: auto;
+}
+
+#version_table thead{
+    background-color: #333;
+    color: #fff;
+}
+
+#version_table td {
+    border: 1px solid #333;
+}
+
+#version_table #vt_names {
+    color: aquamarine;
+}
