@@ -1,0 +1,1 @@
+import{_ as t,o as c,c as o,d as e,a as r}from"./index-7b15352f.js";const a={},s=r("a",{href:"https://microsoft.github.io/ClearScript/about.html"},"原文",-1);function n(_,i){return c(),o("h1",null,[e(" 还在翻译了啦~ 可以先看看"),s,e("哦~ ")])}const f=t(a,[["render",n]]);export{f as default};
